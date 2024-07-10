@@ -19,8 +19,8 @@ const CountryList = () => {
                 </thead>
                 <tbody>
                     {sortedCountries.slice(0, 10).map((item, index) => (
-                        <tr key={index}>
-                            <td><img className='all-country-image' src={item.flags?.svg} alt="" /></td>
+                        <tr className='country-details-row' key={index}>
+                            <td className='all-country-image-row' ><img className='all-country-image' src={item.flags?.svg} alt="" /></td>
                             <td>{item.name?.common}</td>
                             <td>{item.population}</td>
                             <td>{item.area}  km<sup>2</sup></td>
