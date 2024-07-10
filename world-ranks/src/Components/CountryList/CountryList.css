@@ -1,0 +1,47 @@
+.country-list-container {
+    display: flex;
+    justify-content: end;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #282B30;
+    color: White;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+
+
+th {
+    padding: 30px 50px 15px 50px;
+    color: #6C727F;
+    border-bottom: 2px solid #D2D5DA;
+}
+
+td {
+    padding: 30px 50px;
+}
+
+.all-country-image {
+    width: 50px;
+}
+
+/* Media Queries for Tablet and Mobile */
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}

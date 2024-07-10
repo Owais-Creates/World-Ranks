@@ -7,3 +7,25 @@
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
+body{
+  background-color: #282B30;
+}
+
+
+.main-parent {
+  background-color: #282B30;
+  width: 100%;
+  position: relative;
+
+}
+
+.components-div {
+  width: 95%;
+  background-color: #282B30;
+  border-radius: 40px;
+  position: absolute;
+  top: 295%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #6C727F;
+}

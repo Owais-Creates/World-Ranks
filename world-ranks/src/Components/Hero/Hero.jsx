@@ -6,9 +6,9 @@ import logo from "../../assets/Logo.svg"
 const Hero = () => {
     return (
         <>
-            <div className='all-parent-div'>
-                <img className='all-parent-image' src={worldimage} alt="World" />
-                <img className='all-parent-logo' src={logo} alt="" />
+            <div className='hero-div'>
+                <img className='hero-image' src={worldimage} alt="World" />
+                <img className='hero-logo' src={logo} alt="" />
             </div>
         </>
     );

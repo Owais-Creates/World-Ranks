@@ -1,13 +1,9 @@
 
-export const fetchCountryData = () => {
+export const fetchCountryData = async () => {
 
-    return fetch('https://restcountries.com/v3.1/all')
-        .then(response => response.json())
-        .then(data => {
-            console.log(data)
-        })
-        .catch(error => {
-            console.log(error)
-        })
+    const data = await fetch('https://restcountries.com/v3.1/all');
+    const res = data.json()
+    return res;
+
 
 }

@@ -1,19 +1,18 @@
-.all-parent-div {
+.hero-div {
     width: 100%;
-    height: 100vh;
     background-color: #282B30;
     position: relative;
     display: flex;
 }
 
-.all-parent-image {
+.hero-image {
     width: 100%;
     height: 260px;
 }
 
-.all-parent-logo {
+.hero-logo {
     position: absolute;
-    top: 15%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 250px;
